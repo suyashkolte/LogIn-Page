@@ -1,0 +1,80 @@
+body{
+  background-image: url(wallpaper\ 7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100;
+  margin:0;
+}
+
+.login-container{
+  margin:150px;
+  text-align: center;
+  padding: 20px;
+  border:1px;
+  border-radius:10px;
+  width:100%;
+  max-width: 400px;
+}
+
+.login-container input{
+  width:100%;
+  padding:10px;
+  border:1px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin:5px;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.logback{
+  padding: 10px 20px;
+  border: none;
+  background-color:#00409a;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor:pointer;
+  color: black;
+}
+.logback:hover{
+  background-color: #004ab3;
+  color:white;
+}
+
+
+.soption{
+  padding: 10px 20px;
+  border: none;
+  background-color:white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor:pointer;
+  color: black;
+}
+.soption:hover{
+  background-color:#D0D0D0;
+  color:white;
+}
+
+
+.soption .tooltip{
+  visibility: hidden;
+  width: 120px;
+  color:white;
+  background-color: black;
+  text-align:center;
+  border-radius:5px;
+  padding:5px 0;
+  position:absolute;
+  z-index: 1;
+}
+
+.soption:hover .tooltip{
+  visibility: visible;
+}
